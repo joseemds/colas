@@ -17,5 +17,6 @@ fn main() {
         "Colas",
         eframe::NativeOptions::default(),
         Box::new(|_cc| Box::<ColasApp>::default()),
-    ).unwrap();
+    )
+    .unwrap();
 }
